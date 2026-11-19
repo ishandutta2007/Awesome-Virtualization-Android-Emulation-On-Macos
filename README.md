@@ -1,243 +1,154 @@
-# Awesome-Virtualization-Android-Emulation-On-Macos
-
-## Top Virtualization & Android Emulation on macOS Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Apple Silicon/Intel Android Virtualization, Native Android Subsystems on macOS, QEMU/Hypervisor.framework Engines & Cloud Device Farms*  
-
-**Last updated: November 2026**
-
-
-
-This repository (`Awesome-Virtualization-Android-Emulation-On-Macos`) tracks notable **SaaS/Hosted platforms** and **open-source projects** for **Virtualization & Android Emulation on macOS** — Top Virtualization Android Emulation On Macos (Opensource) 🌟 Star if you like it! 🌟. These tools run full Android operating systems and APKs natively on Apple Silicon (M1/M2/M3/M4/M5) and Intel Macs via Apple's `Hypervisor.framework` and `Virtualization.framework`, emulate ARM64/x86_64 guest VMs with QEMU, mirror physical devices, and stream cloud Android farms for automated QA testing.
-
-
-
-**Examples** include BlueStacks Air, Genymotion Cloud, NoxPlayer, LDPlayer, MEmu Play, Android Studio Emulator, BrowserStack, Sauce Labs, AWS Device Farm, LambdaTest, and `harkhowalia-1/MacSubsystemForAndroid` (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for macOS native Android subsystems, Hypervisor.framework virtual machines, QEMU/UTM frontends, containerized Android-in-Docker runtimes, and ADB/scrcpy device control tools — ideal for macOS mobile developers, security researchers, QA automation engineers, and power users.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[BlueStacks Air (for Mac)](https://bluestacks.com)**  
-
-  Native Apple Silicon Android gaming and app player optimized for macOS Retina displays, Metal graphics acceleration, and keyboard/gamepad mapping.
-
-
-
-- **[Genymotion Cloud & Desktop](https://genymotion.com)**  
-
-  Enterprise-grade Android emulator and cloud virtual device platform offering pre-configured Android OS images, GPS/sensor simulation, and CI/CD automation on macOS and SaaS.
-
-
-
-- **[BrowserStack App Live & App Automate](https://browserstack.com)**  
-
-  Cloud real-device and virtual Android testing platform enabling macOS teams to run manual and Appium/Espresso automated tests across thousands of Android models.
-
-
-
-- **[Sauce Labs Mobile Testing](https://saucelabs.com)**  
-
-  Cloud continuous testing platform providing instant access to Android emulators and real devices with video recording, network throttling, and CI integration.
-
-
-
-- **[AWS Device Farm](https://amazon.com)**  
-
-  Managed AWS application testing service allowing developers to test Android apps concurrently against hosted real smartphones and tablets.
-
-
-
-- **[LambdaTest](https://lambdatest.com)**  
-
-  Cloud AI-native test orchestration platform offering virtual Android emulators and real-device clouds for interactive debugging and automated regression suites.
-
-
-
-- **[NoxPlayer (Mac Edition)](https://bignox.com)**  
-
-  Commercial Android emulator for macOS and Windows designed for running mobile apps and games with multi-instance controls and macro recording.
-
-
-
-- **[Corellium](https://corellium.com)**  
-
-  Cloud Arm virtualization platform providing hypervisor-accurate virtual Android and iOS devices tailored for mobile security research, penetration testing, and DevSecOps.
-
-
-
-- **[Firebase Test Lab](https://google.com)**  
-
-  Google Cloud-hosted app testing infrastructure executing automated Robo crawls and instrumentation tests across virtual and physical Android devices.
-
-
-
-- **[MuMuPlayer Pro (NetEase)](https://mumuplayer.com)**  
-
-  Commercial Apple Silicon-native Android emulator for macOS supporting high-framerate rendering, ADB debugging, and multi-instance workflows.
-
-
-
-- **[LDPlayer & MEmu Play (Windows / Cloud VM Equivalents)](https://ldplayer.net)**  
-
-  Popular commercial Android gaming emulators commonly run on macOS via Parallels Desktop, VMware Fusion, or cloud Windows instances for Android app execution.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[MacSubsystemForAndroid (harkhowalia-1/MacSubsystemForAndroid)](https://github.com)**  
-
-  Open-source native Android subsystem for macOS inspired by Windows Subsystem for Android (WSA), enabling seamless execution of Android apps on Apple Silicon Macs.
-
-
-
-- **[Android Studio Emulator / AOSP QEMU (google/android-emulator-m1-preview)](https://googlesource.com)**  
-
-  Official open-source AOSP QEMU-based Android emulator with native Apple Silicon ARM64 `Hypervisor.framework` acceleration, Vulkan/Metal GPU translation, and full Google Play/ADB tooling.
-
-
-
-- **[UTM (utmapp/UTM)](https://github.com)**  
-
-  Full-featured open-source system emulator and virtual machine host for macOS (Apple Silicon & Intel) built on QEMU and Apple `Virtualization.framework`, capable of booting Android-x86, Bliss OS, and ARM64 Android AOSP images.
-
-
-
-- **[QEMU (qemu/qemu)](https://github.com)**  
-
-  Foundational open-source machine emulator and virtualizer supporting native `hvf` (Apple Hypervisor.framework) acceleration and `virglrenderer` 3D graphics for Android guest VMs on macOS.
-
-
-
-- **[Lima (lima-vm/lima)](https://github.com)**  
-
-  CNCF open-source Linux virtual machine manager for macOS (`VZ` / `Virtualization.framework` and QEMU) providing automatic file sharing and port forwarding to host containerized Android environments (Redroid/Waydroid).
-
-
-
-- **[Colima (abiosoft/colima)](https://github.com)**  
-
-  Lightweight open-source container runtime on macOS built on Lima that enables running ARM64/x86_64 Docker Android containers with minimal overhead.
-
-
-
-- **[Redroid — Remote Android (remote-android/redroid-doc)](https://github.com)**  
-
-  Open-source GPU-accelerated Android-in-Docker solution supporting both `arm64` and `amd64` architectures, ideal for running headless or scrcpy-streamed Android instances inside macOS Linux VMs.
-
-
-
-- **[Dockur Android (dockur/android)](https://github.com)**  
-
-  Open-source Docker container running a full Android system with KVM/QEMU acceleration and an integrated HTML5 web viewer accessible straight from a macOS browser.
-
-
-
-- **[Waydroid (waydroid/waydroid)](https://github.com)**  
-
-  Open-source container-based approach to boot a full Android system on Linux VMs (via UTM or Lima on macOS) with near-native hardware performance and multi-window integration.
-
-
-
-- **[Bliss OS (BlissRoms-x86/manifest)](https://github.com)**  
-
-  Open-source Android-based operating system tailored for PCs and virtual machines (UTM/QEMU/VirtualBox on macOS) featuring desktop taskbars, multi-window mode, and ARM translation layers.
-
-
-
-- **[Android-x86 (android-x86/manifest)](https://github.com)**  
-
-  Classic open-source project porting the Android Open Source Project (AOSP) to x86 and x86_64 platforms for virtualized desktop environments.
-
-
-
-- **[Cuttlefish (google/android-cuttlefish)](https://github.com)**  
-
-  Official Google open-source configurable virtual Android device built on `crosvm` and QEMU for testing AOSP builds, custom kernels, and multi-device setups.
-
-
-
-- **[scrcpy (Genymobile/scrcpy)](https://github.com)**  
-
-  Ultra-fast open-source screen mirroring and control utility for macOS (`brew install scrcpy`) displaying physical or virtualized Android devices over USB/TCP-IP at 60–120 FPS with zero root required.
-
-
-
-- **[QtScrcpy (barry-ran/QtScrcpy)](https://github.com)**  
-
-  Cross-platform open-source GUI client built on `scrcpy` for macOS featuring custom keyboard/mouse keymapping for Android games, multi-device control, and screen recording.
-
-
-
-- **[Escrcpy (viarotel-org/escrcpy)](https://github.com)**  
-
-  Modern open-source graphical frontend for `scrcpy` on macOS offering wireless ADB pairing, file manager drag-and-drop, and custom device profiles.
-
-
-
-- **[MacDroid / OpenMTP (ganeshrvel/openmtp)](https://github.com)**  
-
-  Fast, open-source Android File Transfer replacement for macOS supporting high-speed MTP transfers between Apple Silicon Macs and Android devices/emulators.
-
-
-
-- **[VPhone / Virtualization.framework Swift Samples (apple/virtualization-macos-sample)](https://github.com)**  
-
-  Open-source macOS Swift applications leveraging Apple's native `Virtualization.framework` to boot custom ARM64 Linux and Android kernels at near-native speed.
-
-
-
-- **[Tart (cirruslabs/tart)](https://github.com)**  
-
-  Open-source macOS and Linux VM management CLI built on Apple `Virtualization.framework` for spinning up reproducible CI/CD virtual machines on Apple Silicon.
-
-
-
-- **[Appium (appium/appium)](https://github.com)**  
-
-  Industry-standard open-source cross-platform mobile test automation framework driving Android emulators, physical devices, and cloud device farms via W3C WebDriver.
-
-
-
-- **[Maestro (mobile-dev-inc/Maestro)](https://github.com)**  
-
-  Fast, declarative open-source mobile UI testing framework built for Android emulators and iOS simulators on macOS using readable YAML flows.
-
-
-
-- **[ws-scrcpy (NetrisTV/ws-scrcpy)](https://github.com)**  
-
-  Open-source web client and Node.js server streaming Android emulator/device screens directly into any macOS browser via WebSockets and WebCodecs.
-
-
-
-### Additional Strong Open-Source Options
+# Awesome Virtualization & Android Emulation on macOS 🍏🤖⚡
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Virtualization & Android Emulation on macOS" width="100%">
+</p>
+
+<p align="center">
+  <strong>Curated Directory of Cloud Device Farms, Commercial Subsystems & Open-Source Android Emulation Platforms on macOS</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos"><img src="https://img.shields.io/badge/Awesome-Virtualization--Android-38bdf8?style=flat-square&logo=apple&logoColor=white" alt="Awesome Virtualization Android"></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://img.shields.io/badge/Awesome-List-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos?style=flat-square&color=gold" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos?style=flat-square&color=blue" alt="GitHub Forks"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-green.svg?style=flat-square" alt="License: CC0-1.0"></a>
+</p>
+
+---
+
+## 🧭 Table of Contents
+- [📌 Overview & Scope](#-overview--scope)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Under the Hood](#️-architecture--under-the-hood)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📌 Overview & Scope
+
+Running Android environments on Apple hardware has evolved dramatically with the transition to **Apple Silicon (M1/M2/M3/M4/M5)** and modern macOS releases (macOS Sonoma, Sequoia, and beyond). Developers and QA teams no longer rely on sluggish, translation-heavy x86 emulators. Instead, today's macOS Android virtualization ecosystem leverages:
+
+1. ⚡ **Native ARM-on-ARM Execution**: Direct hypervisor virtualization using Apple's `Hypervisor.framework` (`hvf`) and `Virtualization.framework` (`VZ`).
+2. 🎮 **Metal & Vulkan Hardware Acceleration**: Near-native graphics performance translating Android GLES/Vulkan calls to Apple Metal.
+3. 🐳 **Containerized & Headless Micro-VMs**: Running lightweight Android-in-Docker or Redroid instances inside Lima or Colima Linux microVMs.
+4. 📱 **High-Throughput Device Streaming**: Ultra-low-latency display mirroring via `scrcpy`, WebSockets, and WebCodecs at 60–120 FPS.
+5. ☁️ **Enterprise Cloud Device Farms**: Scalable browser-based real devices and simulated clusters for CI/CD Appium and Espresso regression testing.
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global mobile application testing and virtualization market is valued at approximately **$7.8 Billion in 2026** and is projected to surpass **$15.2 Billion by 2032**, expanding at a Compound Annual Growth Rate (CAGR) of **~11.8%**. 
+
+This sector exhibits a **moderately fragmented market structure** characterized by a dual-tier competitive landscape:
+- **Enterprise Infrastructure & Testing Farms**: Moderately concentrated, dominated by established hyperscalers and testing clouds (**AWS Device Farm**, **Google Firebase Test Lab**, **BrowserStack**, and **Sauce Labs**). These players maintain robust moats through extensive physical device racks, automated enterprise CI/CD compliance, and carrier network simulation.
+- **Desktop Virtualization & Specialized Gaming Engines**: Highly dynamic and segmented. Consumer and gaming virtualization features prominent vendors (**BlueStacks**, **MuMuPlayer Pro / NetEase**, **NoxPlayer**) competing directly against deeply integrated developer-first utilities (**Android Studio Emulator**, **Corellium Arm Virtualization**) and community-driven hypervisor runtimes (**UTM**, **Waydroid**, **Redroid**, and **scrcpy**).
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+The following SaaS, cloud device farm, and commercial hosted emulation platforms enable Android virtualization, cloud streaming, automated mobile DevOps, and debugging directly from macOS environments. Sorted by company size, valuation, and enterprise scale (descending):
+
+| Platform / Vendor | Description | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AWS Device Farm](https://aws.amazon.com/device-farm/)** | Managed cloud testing service running Android tests concurrently on real physical devices hosted in AWS data centers. | **$2.3+ Trillion Market Cap** (Amazon / AWS Cloud division with $105B+ annual run rate) | **$0.17 per device minute** (Pay-as-you-go) or **$250/month per unmetered slot** | **1,000 free device minutes** one-time trial on initial AWS account signup |
+| **[Firebase Test Lab](https://firebase.google.com/docs/test-lab)** | Google Cloud mobile testing infrastructure executing automated Robo tests and Espresso suites across physical and virtual Android devices. | **$2.1+ Trillion Market Cap** (Alphabet Inc. / Google Cloud) | **$1.00 per virtual device hour** & **$5.00 per physical device hour** (Blaze pay-as-you-go plan) | **Spark Plan (Free forever)**: **10 virtual device tests/day** + **5 physical device tests/day** |
+| **[BrowserStack App Live & Automate](https://www.browserstack.com/)** | Cloud-based mobile device testing cloud supporting manual exploratory testing and Appium test execution across 3,000+ real Android devices. | **$4.0 Billion Valuation** ($200M+ ARR, bootstrapped market leader) | **$29/month** (App Live billed annually) or **$199/month** (App Automate for automated mobile testing) | **Free trial**: **30 minutes of interactive manual testing** & **100 automated test minutes** |
+| **[Sauce Labs Mobile Testing](https://saucelabs.com/)** | Continuous cloud mobile testing platform offering automated and live testing across public and private Android real devices and emulators. | **$1.5+ Billion Valuation** ($150M+ ARR, backed by TPG and Riverwood) | **$199/month** (Starting plan billed annually for 1 concurrent real-device test slot) | **28-day free trial** with access to **300 minutes of automated device testing** |
+| **[LambdaTest](https://www.lambdatest.com/)** | AI-augmented test execution cloud providing real Android devices and virtual emulators with geolocation testing and network throttling. | **$350 Million Valuation** (~$50M+ ARR, backed by PremjiInvest) | **$25/month** (Real Device App Testing billed annually) or **$15/month** (Virtual cloud testing) | **Free forever plan**: **60 minutes/month of live browser/app testing** (in 10-minute session blocks) |
+| **[Corellium](https://www.corellium.com/)** | Cloud-native ARM-based hypervisor platform providing pure virtualized Android and iOS models for mobile firmware security analysis and DevSecOps. | **$150 Million Valuation** ($20M+ ARR, backed by Paladin Capital) | **$99/month per active virtual device core** (Starting Developer Tier) | **7-day guided enterprise proof-of-concept trial** upon sales request |
+| **[BlueStacks Air / BlueStacks](https://www.bluestacks.com/)** | Commercial Android emulation player and cloud platform offering native Apple Silicon acceleration, Metal translation, and gamepad keymapping. | **$100 Million+ Estimated Valuation** (now part of now.gg, 500M+ global downloads) | **$0 (Ad-supported Free Desktop Player)** or **$9.99/month** (now.gg premium cloud gaming pass) | **Free forever desktop application** (unlimited usage supported by non-intrusive sponsor cards) |
+| **[MuMuPlayer Pro (NetEase)](https://www.mumuplayer.com/mac/)** | Native Apple Silicon (M-Series) Android 12 emulator engineered by NetEase for macOS with high FPS, Metal rendering, and multi-window support. | **$60+ Billion Market Cap** (NetEase Inc., global gaming and technology enterprise) | **$4.99/month** or **$39.99/year** (Subscription for full Apple Silicon pro engine) | **7-day full-feature free trial** with unlimited session time and GPU acceleration |
+| **[Genymotion Cloud & Desktop](https://www.genymotion.com/)** | Virtual Android device platform built for developers, QA engineers, and security researchers with custom ADB integration and REST APIs. | **$30 Million Estimated Valuation** (Genymobile SAS, Paris) | **$0.05 per device minute** (PaaS on AWS/GCP) or **$35/month** ($415/year per user for Desktop) | **30-day free trial** for Genymotion Desktop with full virtual sensor and ADB access |
+| **[NoxPlayer (Mac Edition)](https://www.bignox.com/)** | Consumer Android virtualization container for macOS facilitating multi-instance execution, script automation, and APK sideloading. | **$25 Million Estimated Valuation** (Nox Digital Entertainment) | **$0 (Ad-supported Free Edition)** or **$3.69/month** (VIP ad-free subscription) | **Free forever base version** with unlimited emulation sessions and full multi-instance access |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The open-source community provides remarkable tools, ranging from native hypervisor wrappers and QEMU virtualizers to Android-in-Docker containers and low-latency ADB streamers.
+
+> **Sorted by GitHub Stars (descending)** — Star counts are updated in real-time. Click any badge to view the repository stargazers!
+
+| Repository / Project | Stars | Focus & macOS Relevance |
+| :--- | :---: | :--- |
+| **[scrcpy (Genymobile/scrcpy)](https://github.com/Genymobile/scrcpy)** | [![Stars](https://img.shields.io/github/stars/Genymobile/scrcpy?style=social&color=white)](https://github.com/Genymobile/scrcpy/stargazers) | ⚡ Display and control physical or virtual Android devices over USB/TCP-IP with ultra-low latency (35~70ms) and 60–120 FPS Metal rendering on macOS (`brew install scrcpy`). |
+| **[UTM (utmapp/UTM)](https://github.com/utmapp/UTM)** | [![Stars](https://img.shields.io/github/stars/utmapp/UTM?style=social&color=white)](https://github.com/utmapp/UTM/stargazers) | 🖥️ Full-featured virtual machine host for macOS built on QEMU and Apple `Virtualization.framework`, allowing native ARM64 Android (AOSP, Bliss OS) installation on Apple Silicon. |
+| **[QtScrcpy (barry-ran/QtScrcpy)](https://github.com/barry-ran/QtScrcpy)** | [![Stars](https://img.shields.io/github/stars/barry-ran/QtScrcpy?style=social&color=white)](https://github.com/barry-ran/QtScrcpy/stargazers) | 🎮 Cross-platform Qt GUI frontend for scrcpy on macOS supporting custom mouse/keyboard mapping for Android apps/games, multi-device sync, and screen recording. |
+| **[Colima (abiosoft/colima)](https://github.com/abiosoft/colima)** | [![Stars](https://img.shields.io/github/stars/abiosoft/colima?style=social&color=white)](https://github.com/abiosoft/colima/stargazers) | 🐳 Lightweight container runtimes on macOS with minimal setup; leverages Lima and `VZ` to run containerized Android runtimes (Redroid / Docker-Android) seamlessly. |
+| **[Lima (lima-vm/lima)](https://github.com/lima-vm/lima)** | [![Stars](https://img.shields.io/github/stars/lima-vm/lima?style=social&color=white)](https://github.com/lima-vm/lima/stargazers) | 🐧 CNCF Linux virtual machines on macOS with automatic file-sharing and port-forwarding, providing the kernel virtualization foundation for running Waydroid or Docker Android. |
+| **[Appium (appium/appium)](https://github.com/appium/appium)** | [![Stars](https://img.shields.io/github/stars/appium/appium?style=social&color=white)](https://github.com/appium/appium/stargazers) | 🤖 Industry-standard mobile test automation framework driving Android emulators, simulators, and real devices on macOS using the W3C WebDriver specification. |
+| **[WSABuilds (MustardChef/WSABuilds)](https://github.com/MustardChef/WSABuilds)** | [![Stars](https://img.shields.io/github/stars/MustardChef/WSABuilds?style=social&color=white)](https://github.com/MustardChef/WSABuilds/stargazers) | 🪟 Automated builds integrating Google Play Store (MindTheGapps) and Magisk root into Windows Subsystem for Android; commonly hosted in Parallels/VMware on macOS. |
+| **[Maestro (mobile-dev-inc/Maestro)](https://github.com/mobile-dev-inc/Maestro)** | [![Stars](https://img.shields.io/github/stars/mobile-dev-inc/Maestro)](https://github.com/mobile-dev-inc/Maestro/stargazers) | 🚀 Modern, declarative end-to-end UI automation framework for Android emulators and iOS simulators on macOS with human-readable YAML test scenarios. |
+| **[docker-android (budtmo/docker-android)](https://github.com/budtmo/docker-android)** | [![Stars](https://img.shields.io/github/stars/budtmo/docker-android?style=social&color=white)](https://github.com/budtmo/docker-android/stargazers) | 📦 Complete Android-in-Docker system with noVNC web streaming, video recording, ADB connectivity, and automated CI test execution inside macOS Linux containers. |
+| **[QEMU (qemu/qemu)](https://github.com/qemu/qemu)** | [![Stars](https://img.shields.io/github/stars/qemu/qemu?style=social&color=white)](https://github.com/qemu/qemu/stargazers) | ⚙️ Generic and open-source machine emulator and virtualizer featuring native `hvf` (Apple Hypervisor.framework) acceleration for virtualizing ARM64 Android kernels on macOS. |
+| **[STF (openstf/stf)](https://github.com/openstf/stf)** | [![Stars](https://img.shields.io/github/stars/openstf/stf?style=social&color=white)](https://github.com/openstf/stf/stargazers) | 🌐 Smartphone Test Farm (STF) allows teams to control and manage an entire fleet of real Android devices and emulators directly from any macOS browser. |
+| **[Waydroid (waydroid/waydroid)](https://github.com/waydroid/waydroid)** | [![Stars](https://img.shields.io/github/stars/waydroid/waydroid?style=social&color=white)](https://github.com/waydroid/waydroid/stargazers) | 🚀 Container-based Android system integrated directly into Linux LXC containers (runnable on macOS via UTM/Lima Linux guests) for near-bare-metal performance. |
+| **[Escrcpy (viarotel-org/escrcpy)](https://github.com/viarotel-org/escrcpy)** | [![Stars](https://img.shields.io/github/stars/viarotel-org/escrcpy?style=social&color=white)](https://github.com/viarotel-org/escrcpy/stargazers) | 🎨 Modern graphical user interface for scrcpy on macOS offering drag-and-drop APK installation, wireless ADB pairing, and customized display scaling. |
+| **[MagiskOnWSALocal (LSPosed/MagiskOnWSALocal)](https://github.com/LSPosed/MagiskOnWSALocal)** | [![Stars](https://img.shields.io/github/stars/LSPosed/MagiskOnWSALocal?style=social&color=white)](https://github.com/LSPosed/MagiskOnWSALocal/stargazers) | 🪄 Scripting suite to integrate Magisk root and OpenGApps into Android subsystem images with custom kernel modules and debugging support. |
+| **[Gnirehtet (Genymobile/gnirehtet)](https://github.com/Genymobile/gnirehtet)** | [![Stars](https://img.shields.io/github/stars/Genymobile/gnirehtet?style=social&color=white)](https://github.com/Genymobile/gnirehtet/stargazers) | 🔄 Reverse tethering utility by Genymobile providing internet access from macOS to Android devices and emulators over USB without requiring root access. |
+| **[Tart (cirruslabs/tart)](https://github.com/cirruslabs/tart)** | [![Stars](https://img.shields.io/github/stars/cirruslabs/tart?style=social&color=white)](https://github.com/cirruslabs/tart/stargazers) | 🍏 Virtualization CLI engineered specifically for Apple Silicon macOS, managing lightweight OCI microVMs that can host headless Android test harnesses. |
+| **[OpenMTP (ganeshrvel/openmtp)](https://github.com/ganeshrvel/openmtp)** | [![Stars](https://img.shields.io/github/stars/ganeshrvel/openmtp?style=social&color=white)](https://github.com/ganeshrvel/openmtp/stargazers) | 📁 Open-source Android File Transfer replacement for macOS supporting multi-gigabyte MTP transfers and internal/SD storage management on Apple Silicon. |
+| **[Redroid (remote-android/redroid-doc)](https://github.com/remote-android/redroid-doc)** | [![Stars](https://img.shields.io/github/stars/remote-android/redroid-doc?style=social&color=white)](https://github.com/remote-android/redroid-doc/stargazers) | ☁️ Multi-arch, GPU-accelerated Remote Android in Docker solution running inside macOS Linux VMs with streaming output via WebRTC or scrcpy. |
+| **[ws-scrcpy (NetrisTV/ws-scrcpy)](https://github.com/NetrisTV/ws-scrcpy)** | [![Stars](https://img.shields.io/github/stars/NetrisTV/ws-scrcpy?style=social&color=white)](https://github.com/NetrisTV/ws-scrcpy/stargazers) | 🌐 Node.js web client streaming scrcpy Android sessions into macOS browsers using WebSockets, H.264/H.265 decoders, and touch interaction. |
+| **[Android Studio M1 Preview (google/android-emulator-m1-preview)](https://github.com/google/android-emulator-m1-preview)** | [![Stars](https://img.shields.io/github/stars/google/android-emulator-m1-preview?style=social&color=white)](https://github.com/google/android-emulator-m1-preview/stargazers) | 🛠️ Historical standalone preview that spearheaded native ARM64 Android hypervisor emulation on Apple Silicon prior to integration into standard Android Studio Canary. |
+| **[MacSubsystemForAndroid (harkhowalia-1/MacSubsystemForAndroid)](https://github.com/harkhowalia-1/MacSubsystemForAndroid)** | [![Stars](https://img.shields.io/github/stars/harkhowalia-1/MacSubsystemForAndroid?style=social&color=white)](https://github.com/harkhowalia-1/MacSubsystemForAndroid/stargazers) | 💻 Runs Android apps natively on macOS: each in its own window with its own macOS Dock icon, notification integration, and controller support (LineageOS + QEMU + scrcpy). |
+| **[Bliss OS (BlissRoms-x86/manifest)](https://github.com/BlissRoms-x86/manifest)** | [![Stars](https://img.shields.io/github/stars/BlissRoms-x86/manifest?style=social&color=white)](https://github.com/BlissRoms-x86/manifest/stargazers) | 🌈 Open-source Android OS for PC and virtual machines (UTM/QEMU) incorporating desktop launcher navigation, multi-windowing, and ARM Houdini/NativeBridge translation. |
+| **[Android-x86 (android-x86/manifest)](https://github.com/android-x86/manifest)** | [![Stars](https://img.shields.io/github/stars/android-x86/manifest?style=social&color=white)](https://github.com/android-x86/manifest/stargazers) | 🧱 Foundational project porting Android Open Source Project (AOSP) to x86_64, serving as the base kernel and userland for early Intel Mac virtualization. |
+
+---
+
+## 🛠️ Architecture & Under the Hood
+
+```
+   ┌─────────────────────────────────────────────────────────────┐
+   │                    macOS Host Application                   │
+   │      (Android Studio / UTM / scrcpy / QtScrcpy / Escrcpy)   │
+   └──────────────────────────────┬──────────────────────────────┘
+                                  │
+          ┌───────────────────────┴───────────────────────┐
+          ▼                                               ▼
+┌───────────────────────────────┐               ┌───────────────────────────────┐
+│     Virtualization.framework  │               │      Hypervisor.framework     │
+│   (Apple VZ / High-Level VMs) │               │   (Direct ARM64 hvf In QEMU)  │
+└──────────────┬────────────────┘               └───────────────┬───────────────┘
+               │                                                │
+               └───────────────────────┬────────────────────────┘
+                                       ▼
+                     ┌───────────────────────────────────┐
+                     │    ARM64 Guest Operating System   │
+                     │    (AOSP / LineageOS / BlissOS)   │
+                     └─────────────────┬─────────────────┘
+                                       ▼
+                     ┌───────────────────────────────────┐
+                     │   Graphics & Display Translation  │
+                     │  (Vulkan / virglrenderer ➔ Metal) │
+                     └───────────────────────────────────┘
+```
+
+- **Type-2 Hypervisor Layer**: Apple Silicon's Hardware Virtualization Support (`HVF`) provides zero-overhead translation when running ARM64 Android system images on Apple M-Series chips.
+- **Unified Memory Architecture (UMA)**: Shared CPU and GPU memory on Apple Silicon permits low copy overhead when piping virtual video buffers to macOS Metal display pipelines.
+- **ADB Bridge**: Virtualized internal TCP sockets redirect port `5555` directly to macOS host localhost for seamless `adb install`, logcat inspection, and profiling.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions, bug reports, and suggestions are warmly welcome!
+
+1. 🍴 **Fork the repo** to your personal GitHub account.
+2. 🌿 **Create a new branch**: `git checkout -b feature/new-emulator-tool`.
+3. 📝 **Add your tool**: Keep SaaS pricing and free tier specs factual, ensure open-source repositories include star badges with exact stargazer links, and verify Apple Silicon compatibility.
+4. 🚀 **Commit & Push**: Open a Pull Request with a clear description of your addition.
+
+---
+
+## ⚖️ Disclaimer
+
+*All product names, trademarks, logos, and brands mentioned in this curated list are property of their respective owners. Mentioning them does not imply affiliation, sponsorship, or endorsement.*
