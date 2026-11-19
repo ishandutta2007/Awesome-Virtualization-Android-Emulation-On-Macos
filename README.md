@@ -13,7 +13,7 @@
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos"><img src="https://img.shields.io/badge/Awesome-Virtualization--Android-38bdf8?style=flat-square&logo=apple&logoColor=white" alt="Awesome Virtualization Android"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-List-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome"></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos?style=flat-square&color=gold" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos?style=flat-square&color=gold" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos?style=flat-square&color=blue" alt="GitHub Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-green.svg?style=flat-square" alt="License: CC0-1.0"></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -79,9 +79,9 @@ The following SaaS, cloud device farm, and commercial hosted emulation platforms
 
 The open-source community provides remarkable tools, ranging from native hypervisor wrappers and QEMU virtualizers to Android-in-Docker containers and low-latency ADB streamers.
 
-> **Sorted by GitHub Stars (descending)** — Star counts are updated in real-time. Click any badge to view the repository stargazers!
+> **Sorted by GitHub_Stars (descending)** — Stars_Counts are updated in real-time. Click any badge to view the repository stargazers!
 
-| Repository / Project | Stars | Focus & macOS Relevance |
+| Repository / Project | GitHub_Stars | Focus & macOS Relevance |
 | :--- | :---: | :--- |
 | **[scrcpy (Genymobile/scrcpy)](https://github.com/Genymobile/scrcpy)** | [![Stars](https://img.shields.io/github/stars/Genymobile/scrcpy?style=social&color=white)](https://github.com/Genymobile/scrcpy/stargazers) | ⚡ Display and control physical or virtual Android devices over USB/TCP-IP with ultra-low latency (35~70ms) and 60–120 FPS Metal rendering on macOS (`brew install scrcpy`). |
 | **[UTM (utmapp/UTM)](https://github.com/utmapp/UTM)** | [![Stars](https://img.shields.io/github/stars/utmapp/UTM?style=social&color=white)](https://github.com/utmapp/UTM/stargazers) | 🖥️ Full-featured virtual machine host for macOS built on QEMU and Apple `Virtualization.framework`, allowing native ARM64 Android (AOSP, Bliss OS) installation on Apple Silicon. |
@@ -149,7 +149,7 @@ Contributions, bug reports, and suggestions are warmly welcome!
 
 1. 🍴 **Fork the repo** to your personal GitHub account.
 2. 🌿 **Create a new branch**: `git checkout -b feature/new-emulator-tool`.
-3. 📝 **Add your tool**: Keep SaaS pricing and free tier specs factual, ensure open-source repositories include star badges with exact stargazer links, and verify Apple Silicon compatibility.
+3. 📝 **Add your tool**: Keep SaaS pricing and free tier specs factual, ensure open-source repositories include Stars_Badges with exact stargazer links, and verify Apple Silicon compatibility.
 4. 🚀 **Commit & Push**: Open a Pull Request with a clear description of your addition.
 
 ---
