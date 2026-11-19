@@ -9,11 +9,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos"><img src="https://img.shields.io/badge/Awesome-Virtualization--Android-38bdf8?style=flat-square&logo=apple&logoColor=white" alt="Awesome Virtualization Android"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://img.shields.io/badge/Awesome-List-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-List-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos?style=flat-square&color=gold" alt="GitHub Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos?style=flat-square&color=blue" alt="GitHub Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-green.svg?style=flat-square" alt="License: CC0-1.0"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -25,6 +28,8 @@
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ Architecture & Under the Hood](#️-architecture--under-the-hood)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📊 Star History](#-star-history)
 - [⚖️ Disclaimer](#️-disclaimer)
 
 ---
@@ -146,6 +151,23 @@ Contributions, bug reports, and suggestions are warmly welcome!
 2. 🌿 **Create a new branch**: `git checkout -b feature/new-emulator-tool`.
 3. 📝 **Add your tool**: Keep SaaS pricing and free tier specs factual, ensure open-source repositories include star badges with exact stargazer links, and verify Apple Silicon compatibility.
 4. 🚀 **Commit & Push**: Open a Pull Request with a clear description of your addition.
+
+---
+
+## 💖 Support
+
+If this curated directory has helped you build, test, or emulate Android apps on macOS, please consider showing your support:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork & Contribute** tools, frameworks, and benchmarks.
+- 📢 **Share** with colleagues and the mobile engineering community.
+- ☕ **Buy me a coffee**: If you find this project valuable, consider sponsoring via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+##  Star History
+#[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos&type=date&legend=top-left)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Virtualization-Android-Emulation-On-Macos&type=date&legend=top-left)
 
 ---
 
